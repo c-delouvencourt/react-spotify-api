@@ -1,7 +1,7 @@
 import useApiRequest from '../ApiRequest/useApiRequest';
 
 function useUserTop(id) {
-  var url = 'https://api.spotify.com/v1/me/artists';
+  var url = 'https://api.spotify.com/v1/me/top/artists';
 
   var _useApiRequest = useApiRequest(url),
       data = _useApiRequest.data,
