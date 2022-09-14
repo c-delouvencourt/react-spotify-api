@@ -1,9 +1,9 @@
-import { Artist, ArtistAlbums, ArtistRelated, ArtistTracks, useArtist } from './Artist';
+import { Artist, ArtistAlbums, ArtistRelated, ArtistTracks, useArtist, useArtistRelated, useArtistTopTracks } from './Artist';
 import { Track, TrackFeatures, TrackAnalysis, useTrack } from './Track';
 import { Album, AlbumTracks, useAlbum } from './Album';
 import { BrowseFeatured, BrowseNew, BrowseCategoryPlaylists, BrowseRecommendations, BrowseCategories, BrowseCategory } from './Browse';
 import { Playlist, PlaylistImages, PlaylistTracks } from './Playlist';
-import { User, UserPlaylists, UserTop, UserArtists, UserAlbums, UserTracks, useUser } from './User';
+import { User, UserPlaylists, UserTop, UserArtists, UserAlbums, UserTracks, useUser, useUserTop } from './User';
 import { Search, useSearch } from './Search';
 import SpotifyApiContext, { SpotifyApiAxiosContext } from './context';
 export { Artist, ArtistAlbums, ArtistTracks, ArtistRelated };
@@ -13,5 +13,5 @@ export { BrowseFeatured, BrowseNew, BrowseCategoryPlaylists, BrowseRecommendatio
 export { Playlist, PlaylistTracks, PlaylistImages };
 export { User, UserPlaylists, UserTop, UserArtists, UserAlbums, UserTracks };
 export { Search };
-export { useArtist, useTrack, useAlbum, useUser, useSearch };
+export { useArtist, useTrack, useAlbum, useUser, useSearch, useArtistRelated, useArtistTopTracks, useUserTop };
 export { SpotifyApiContext, SpotifyApiAxiosContext };
