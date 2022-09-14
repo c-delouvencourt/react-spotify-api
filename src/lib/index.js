@@ -4,7 +4,9 @@ import {
   ArtistAlbums,
   ArtistRelated,
   ArtistTracks,
-  useArtist
+  useArtist,
+  useArtistRelated,
+  useArtistTopTracks
 } from './Artist';
 import { Track, TrackFeatures, TrackAnalysis, useTrack } from './Track';
 import { Album, AlbumTracks, useAlbum } from './Album';
@@ -24,7 +26,8 @@ import {
   UserArtists,
   UserAlbums,
   UserTracks,
-  useUser
+  useUser,
+  useUserTop
 } from './User';
 import { Search, useSearch } from './Search';
 
@@ -60,7 +63,7 @@ export { User, UserPlaylists, UserTop, UserArtists, UserAlbums, UserTracks };
 export { Search };
 
 // Hooks
-export { useArtist, useTrack, useAlbum, useUser, useSearch };
+export { useArtist, useTrack, useAlbum, useUser, useSearch, useArtistRelated, useArtistTopTracks, useUserTop };
 
 // Context
 export { SpotifyApiContext, SpotifyApiAxiosContext };

@@ -5,6 +5,7 @@ import UserTop from './UserTop';
 import UserArtists from './UserArtists';
 import UserAlbums from './UserAlbums';
 import useUser from './useUser';
+import useUserTop from './useUserTop';
 
 export {
     User,
@@ -13,5 +14,6 @@ export {
     UserTop,
     UserArtists,
     UserAlbums,
-    useUser
+    useUser,
+    useUserTop
 };
